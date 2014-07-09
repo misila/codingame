@@ -26,7 +26,6 @@ while 1:
                if mh[i]>max:
                    max = mh[i]
                    index = i
-            #print('aller, index=%d' %index)
         else:
              max=mh[7]
              index=7
@@ -34,7 +33,6 @@ while 1:
                  if e>max:
                      max   = e
                      index = i
-             #print('retour, index=%d' %index)
        
         if mh[sx]>0 and sx==index:
             print("FIRE")
